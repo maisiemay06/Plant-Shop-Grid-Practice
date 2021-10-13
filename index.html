@@ -4,141 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Economica&family=Rampart+One&family=Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
     <title>You Grow, Girl</title>
 </head>
 <body>
     <nav>
         <h2>You Grow Girl</h2>
-        <ul>
+        <ul class="nav-links">
             <li><a href="#cacti">cacti</a></li>
-            <li><a href="#succulents"></a>succulents</li>
+            <li><a href="#succulents">succulents</a></li>
             <li><a href="#flowers">Flowers</a></li>
             <li><a href="#indoor">indoor</a></li>
             <li><a href="#outdoor">outdoor</a></li>
         </ul>
     </nav>
-    <head>
-        <h2>You Grow, Girl</h2>
-        <p>For your kitchen oasis, bedroom rockery, garden orchard, or living room jungle
-            Spend over £40 for free next day delivery
-        </p>
-        <a href="#featured">shop now</a>
-    </head>
+    <header>
+        <div class="head-text">
+            <h1>You Grow, Girl</h1>
+            <p>For your kitchen oasis, bedroom rockery, garden orchard, or living room jungle
+                <br> Spend over £40 for free next day delivery
+            </p>
+            <div class="button-row">
+                <a href="#featured">shop now</a>
+            </div>
+        </div>
+    </header>
     <main>
-        <div class="container" id="featured">
-            <div class="tile">
-                <img src="./src/images/Featured/burgundy-rubber-tree.jpg" alt="Burgundy Rubber Tree">
-                <h4>Burgundy Rubber Tree</h4>
-                <h5>£10.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Featured/pilea-peperomioides.jpg" alt="Pilea Peperomioides">
-                <h4>Pilea Peperomioides</h4>
-                <h5>£8.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Featured/varigated-arrowhead-vine.jpg" alt="Varigated Arrowhead Vine">
-                <h4>Varigated Arrowhead Vine</h4>
-                <h5>£13.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Featured/monstera.jpg" alt="Monstera Deliciosa">
-                <h4>Monstera Deliciosa</h4>
-                <h5>£15.00</h5>
-            </div>
-        </div>
-        <div class="container" id="cacti">
-            <div class="tile">
-                <img src="./src/images/Cacti/african-milk-tree.jpg" alt="African Milk Tree">
-                <h4>African Milk Tree</h4>
-                <h5>£18.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Cacti/blue-columnar.jpg" alt="Blue Columnar">
-                <h4>Blue Columnar</h4>
-                <h5>£5.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Cacti/bunny-ear-cactus.jpg" alt="Bunny Ear Cactus">
-                <h4>Bunny Ear Cactus</h4>
-                <h5>£6.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Cacti/cactus-fairy-castle.jpg" alt="Fairy Castle Cactus">
-                <h4>Fairy Castle Cactus</h4>
-                <h5>£8.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Cacti/cactus-old-lady.jpg" alt="Old Lady Cactus">
-                <h4>Old Lady Cactus</h4>
-                <h5>£5.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Cacti/hedgehog-cactus.jpg" alt="Hedgehog Cactus">
-                <h4>Hedgehog Cactus</h4>
-                <h5>£8.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Cacti/ladyfinger.jpg" alt="Ladyfinger Cactus">
-                <h4>Ladyfinger Cactus</h4>
-                <h5>£6.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Cacti/mixed-cactus-pack.jpg" alt="Mixed Cactus Pack">
-                <h4>Mixed Cactus Pack</h4>
-                <h5>£12.00</h5>
+        <div class="card" id="featured">
+            <h3 class="section-title">Featured</h3>
+            <div class="container">
+                <div class="tile">
+                    <img src="./src/images/Featured/burgundy-rubber-tree.jpg" alt="Burgundy Rubber Tree">
+                    <h4>Burgundy Rubber Tree</h4>
+                    <h5>£10.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Featured/pilea-peperomioides.jpg" alt="Pilea Peperomioides">
+                    <h4>Pilea Peperomioides</h4>
+                    <h5>£8.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Featured/varigated-arrowhead-vine.jpg" alt="Varigated Arrowhead Vine">
+                    <h4>Varigated Arrowhead Vine</h4>
+                    <h5>£13.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Featured/monstera.jpg" alt="Monstera Deliciosa">
+                    <h4>Monstera Deliciosa</h4>
+                    <h5>£15.00</h5>
+                </div>
             </div>
         </div>
-        <div class="container" id="succulents">
-            <div class="tile">
-                <img src="./src/images/Succulents/aloe-vera.jpg" alt="Aloe Vera">
-                <h4>Alove Vera</h4>
-                <h5>£8.00</h5>
+        <div class="card" id="cacti">
+            <h3 class="section-title">Cacti</h3>
+            <div class="container">
+                <div class="tile">
+                    <img src="./src/images/Cacti/african-milk-tree.jpg" alt="African Milk Tree">
+                    <h4>African Milk Tree</h4>
+                    <h5>£18.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Cacti/blue-columnar.jpg" alt="Blue Columnar">
+                    <h4>Blue Columnar</h4>
+                    <h5>£5.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Cacti/bunny-ear-cactus.jpg" alt="Bunny Ear Cactus">
+                    <h4>Bunny Ear Cactus</h4>
+                    <h5>£6.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Cacti/cactus-fairy-castle.jpg" alt="Fairy Castle Cactus">
+                    <h4>Fairy Castle Cactus</h4>
+                    <h5>£8.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Cacti/cactus-old-lady.jpg" alt="Old Lady Cactus">
+                    <h4>Old Lady Cactus</h4>
+                    <h5>£5.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Cacti/hedgehog-cactus.jpg" alt="Hedgehog Cactus">
+                    <h4>Hedgehog Cactus</h4>
+                    <h5>£8.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Cacti/ladyfinger.jpg" alt="Ladyfinger Cactus">
+                    <h4>Ladyfinger Cactus</h4>
+                    <h5>£6.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Cacti/mixed-cactus-pack.jpg" alt="Mixed Cactus Pack">
+                    <h4>Mixed Cactus Pack</h4>
+                    <h5>£12.00</h5>
+                </div>
             </div>
-            <div class="tile">
-                <img src="./src/images/Succulents/echiveria.jpg" alt="Echiveria">
-                <h4>Echiveria</h4>
-                <h5>£7.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Succulents/gollum-jade.jpeg" alt="Gollum Jade">
-                <h4>Gollum Jade</h4>
-                <h5>£10.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Succulents/kalanchoe-panda-plant.png" alt="Kalanchoe Panda Plant">
-                <h4>Kalanchoe Panda Plant</h4>
-                <h5>£9.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Succulents/senecio-string-of-pearls.jpg" alt="Senecio String of Pearls">
-                <h4>Senecio String of Pearls</h4>
-                <h5>£12.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Succulents/succ-jade.jpg" alt="Jade Plant">
-                <h4>Jade Plant</h4>
-                <h5>£10.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Succulents/succ-zebra-plant.jpg" alt="Zebra Plant">
-                <h4>Zebra Plant</h4>
-                <h5>£7.00</h5>
-            </div>
-            <div class="tile">
-                <img src="./src/images/Succulents/succ-mixed-pack.jpg" alt="Mixed Succulent Pack">
-                <h4>Mixed Succulent Pack</h4>
-                <h5>£12.00</h5>
+        </div>
+        <div class="card" id="succulents">
+            <h3 class="section-title">Succulents</h3>
+            <div class="container">
+                <div class="tile">
+                    <img src="./src/images/Succulents/aloe-vera.jpg" alt="Aloe Vera">
+                    <h4>Alove Vera</h4>
+                    <h5>£8.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Succulents/echiveria.jpg" alt="Echiveria">
+                    <h4>Echiveria</h4>
+                    <h5>£7.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Succulents/gollum-jade.jpeg" alt="Gollum Jade">
+                    <h4>Gollum Jade</h4>
+                    <h5>£10.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Succulents/kalanchoe-panda-plant.jpg" alt="Kalanchoe Panda Plant">
+                    <h4>Kalanchoe Panda Plant</h4>
+                    <h5>£9.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Succulents/senecio-string-of-pearls.jpg" alt="Senecio String of Pearls">
+                    <h4>Senecio String of Pearls</h4>
+                    <h5>£12.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Succulents/succ-jade.jpg" alt="Jade Plant">
+                    <h4>Jade Plant</h4>
+                    <h5>£10.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Succulents/succ-zebra-plant.jpg" alt="Zebra Plant">
+                    <h4>Zebra Plant</h4>
+                    <h5>£7.00</h5>
+                </div>
+                <div class="tile">
+                    <img src="./src/images/Succulents/succ-mixed-pack.jpg" alt="Mixed Succulent Pack">
+                    <h4>Mixed Succulent Pack</h4>
+                    <h5>£12.00</h5>
+                </div>
             </div>
         </div>
     </main>
     <footer>
         <small>© You Grow, Girl 2021</small>
-        <ul>
+        <ul class="footer-links">
             <li><a href="#">Contact</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">FAQs</a></lu>
